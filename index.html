@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>formulaire</title>
+</head>
+<body>
+  <form action="/ma-page-de-traitement" method="post">
+      <p class="nom">votre identité</p>
+    <div class="identite">
+        <ol>
+          <li label for="name">nom</label>
+            <input type="text" value="nom" name="user_name" id="name">
+          <li label for="name">prénom</label>
+            <input type="text" value="prénom" name="user_name" id="prénom">
+          <li label for="name">adresse mail</label>
+            <input type="text" value="adresse" name="user_name" id="adress">
+      </div>
+      <p class= "livraison">adresse de livraison</p>
+      <div class="adresse">
+          <ol>
+            <li label for="name">adresse</label>
+              <textarea name="adresse" maxlength="100"></textarea>
+            <li label for="name">code postal</label>
+              <input type="text" value="code postal" name="user_name" id="codepostal">
+            <li label for="name">ville</label>
+              <input type="text" value="ville" name="user_name" id="ville">
+      </div>
+          <p class="reglement">informations de réglement</p>
+      <div class="informations">
+            <ol>
+              <li label for="name">type de carte bancaire</label>
+                <ol>
+                  <li>
+                    <input type="radio" id="visa"
+                      name="visa" value="visa">
+                    <label for="visa">visa</label>
+                  </li>
+                  <li>
+                    <input type="radio" id="mastercard"
+                      name="contact" value="courrier">
+                    <label for="Mastercard">Mastercard</label>
+                  </li>
+                </ol>
+                  <li label for="name">numéro de carte</label>
+                    <input type="text" value="numéro de carte" name="user_name" id="numérodecarte">
+                  <li label for="name">Code de sécurité</label>
+                    <input type="text" value="code de sécurité" name="user_name" id="codedesécurité">
+                <li label for="name">Nom du titulaire</label>
+                    <input type="text" value="Nom du titulaire" name="user_name" id="nomdutitulaire">
+      </div>
+      <button type="submit">J'achète</button>
+    </form>
+  </body>
+</html>

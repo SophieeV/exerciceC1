@@ -1,0 +1,49 @@
+.identite
+{
+  height: 80px;
+background-color: blue;
+margin-top : -20px;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+.nom
+{
+  width: 15%;
+  background-color: blue;
+  margin-left: 15px;
+}
+.adresse
+{
+  height: 100px;
+  background-color: purple;
+  margin-top : -20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.livraison
+{
+  width: 25%;
+  background-color: purple;
+  margin-left: 15px;
+  padding-top: 5px;
+}
+.informations
+{
+  height: 130px;
+  background-color: #FF1493;
+  margin-top : -20px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+
+}
+.reglement
+{
+  width: 30%;
+  background-color: #FF1493;
+  margin-left: 15px;
+}
+
+button
+{
+  margin-top: 5px;
+}
